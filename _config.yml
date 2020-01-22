@@ -1,0 +1,9 @@
+name: Rajat Saxena
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
+comments: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
