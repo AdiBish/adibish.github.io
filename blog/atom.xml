@@ -4,22 +4,22 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Rajat Saxena's Blog</title>
-	<link href="http://rajatsaxena.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://rajatsaxena.github.io/blog"/>
+	<title>Aditi Bishnoi's Blog</title>
+	<link href="http://adibish.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://adibish.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://rajatsaxena.github.io/blog</id>
+	<id>http://adibish.github.io/blog</id>
 	<author>
-		<name>Rajat Saxena</name>
-		<email>rajatsxn94@gmail.com</email>
+		<name>Aditi Bishnoi</name>
+		<email>aditib@iisc.ac.in</email>
 	</author>
 
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://rajatsaxena.github.io{{ post.url }}"/>
+			<link href="http://adibish.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://rajatsaxena.github.io{{ post.id }}</id>
+			<id>http://adibish.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
