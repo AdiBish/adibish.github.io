@@ -15,8 +15,8 @@ once all the sections have been aligned.
 
 
 Some known issues and my work arounds: 
-## stacked images do not get loaded in the correct order 
+1. stacked images do not get loaded in the correct order 
 
-## unable to draw more than 1 lines / curves. 
+_> unable to draw more than 1 lines / curves. 
 
 
