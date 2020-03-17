@@ -5,10 +5,10 @@ In electrophysiology experiments, it is essential to know where your electrodes 
 
 
 ### **Tools and how to use**:
-The TrackEM plugin in ImageJ allows stacking individual images and aligning them manually. 
+The [TrakEM2](https://imagej.net/TrakEM2) plugin in [ImageJ](https://imagej.nih.gov/ij/) allows stacking individual images and aligning them manually. [Fiji](https://fiji.sc/) includes all the necessary plugins for TrakEM2. 
 There are java based algorithms which require you to mark segments to be used as reference points for automatic image alignment but i have never tried them. I prefer manual alignment over automatic as it gives me more confidence over tracks belonging to tetrodes rather than to blood capillaries or damages to the brain section while loading (?). 
 
-For manual alignment of images, this link can be used as a quick tutorial.
+For manual alignment of images, this [link](https://www.youtube.com/watch?v=-p0Jg0QKF24) can be used as a quick tutorial.
 
 once all the sections have been aligned, make sure your zoom is suitable for you to be able to look at all tracks by scrolling through them back and forth. 
 
