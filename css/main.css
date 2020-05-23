@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: pink;
+    background-color: rgb(245, 245, 245);
 }
 nav ul, footer ul {
     font-family: 'Times New Roman', 'Times', 'serif';
