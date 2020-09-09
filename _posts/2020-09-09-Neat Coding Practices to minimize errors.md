@@ -32,40 +32,40 @@ All these are crucial in order to ensure that the data set you are setting with 
     
 How to have all important functions in the same file in python:      
     
-        ```python
-        def firstfunction (a,b):
-            #c = do sometihng with a and b
-            return c
-        def secondfunction(c,d):
-            #e = do something with c and d
-            return e
+```python
+def firstfunction (a,b):
+    #c = do sometihng with a and b
+    return c
+def secondfunction(c,d):
+    #e = do something with c and d
+    return e
 
-        # to call: 
+# to call: 
 
-        import utils as ut # the name of the file will be utils.py in this case
-        c = ut.firstfunction(a,b)
+import utils as ut # the name of the file will be utils.py in this case
+c = ut.firstfunction(a,b)
         ```
 
 In matlab: 
 
-    ```matlab
-    function f = utils % the name of the file will be utils.m in this case
-        f.firstfunction = @firstfunction;
-        f.secondfunction = @secondfunction;
-    end
+```matlab
+function f = utils % the name of the file will be utils.m in this case
+    f.firstfunction = @firstfunction;
+    f.secondfunction = @secondfunction;
+end
 
-    function c = firstfunction(a,b)
-        %do something 
-    end
+function c = firstfunction(a,b)
+    %do something 
+end
 
-    function e = secondfunction(c,d)
-        %do something
-    end
+function e = secondfunction(c,d)
+    %do something
+end
 
-    % To call:
-    ut = utils;
-    c = ut.firstfunction(a,b);  
-    ```
+% To call:
+ut = utils;
+c = ut.firstfunction(a,b);  
+```
   
 6. Writing the main code
 Here the basic flow would be to load preprocessed data (or if your code is not very lengthy, you can load raw data and run preprocessing as mentioned in #2 through separate functions within the first few lines itself), plot figures and save all necessary intermediate and final variables.
