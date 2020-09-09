@@ -32,8 +32,7 @@ All these are crucial in order to ensure that the data set you are setting with 
     
 How to have all important functions in the same file in python:      
     
-        ````python  
-        
+        ```python  
         def firstfunction (a,b)
             #c = do sometihng with a and b
             return c
@@ -45,7 +44,7 @@ How to have all important functions in the same file in python:
         
         import utils as ut # the name of the file will be utils.py in this case
         c = ut.firstfunction(a,b)
-        ````
+        ```
 
 In matlab: 
 
