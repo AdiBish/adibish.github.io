@@ -3,17 +3,17 @@
 
 I will be using analysis of experimental data that I do routinely as an example. Assuming that you have collected some interesting data and want to see if there are particular trends in your data. 
 
-1. Identify the type of raw data that you need to work upon and identify its structure: For neural data, do you need spike data, local field potentials, calcium imaging. Are there any behavioural data to correlate: video frames for position, TTL timestamps for various events etc. 
+1. Identify the type of raw data that you need to work upon and identify its structure: For neural data, do you need spike data/ local field potentials/ calcium imaging pictures ? Is there any behavioural data to correlate with neural activity: video frames for position, TTL timestamps for various events etc. 
 
-2. Prepare the raw data: check if any preprocessing would be required e.g. spike data needs to be sorted into various session types or the gains of local field potentials need to be matched across channels and animals. 
+2. Preprocessing the raw data: check if any preprocessing would be required e.g. identifying different units from spike data, filtering of local field potentials after matching gains to keep them constant across channels and animals. 
 
-All these are crucial in order to ensure that the data set you are setting with in the first place is correct. 
+All these are crucial in order to ensure that the data set you are starting with in the first place is free from errors. 
 
 3. Pen and paper for psuedoalgorithm: sketch out the outline of the calculations that would be needed and the basic algorithm before setting out on writing the final code.
 
-*Neat writing to minimize errors and increase readability:*
+*Neat writing to minimize errors and better readability:*
 
-4. Modular approach, Create Functions: Most of the times, you would have to do very different calculations within the same algorithm. Also, many calculations might have to be repeated at various steps. In such cases, its better to put these calculations in separate functions to make your scripts more legible and avoid errors due to copy paste in the respective cases. Have a separate file for the main code and another file for all the functions. Its better to have all functions in one file labelled utilities as it makes tracking versions also easier and reduces the mess of organizing files. 
+4. Modular approach, Create Functions: Most of the times, you would have to do very different calculations within the same algorithm. Also, many calculations might have to be repeated at various steps. In such cases, its better to put these calculations under separate functions to make your scripts legible and avoid errors due to copy- pasting codes in the respective cases. Have a separate file for the main code and another file for all the functions. Its better to have all functions in one file labelled utilities as it makes tracking versions also easier and reduces the mess of organizing files. 
 
 5. Writing all utility functions in a single function file.  
 
