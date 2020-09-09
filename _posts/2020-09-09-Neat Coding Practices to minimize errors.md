@@ -10,15 +10,15 @@ Assuming that you have collected some interesting data and want to see if there 
 All these are crucial in order to ensure that the data set you are setting with in the first place is correct. 
 3. Pen and paper for psuedoalgorithm: sketch out the outline of the calculations that would be needed and the basic algorithm before setting out on writing the final code.
 
-   *Neat writing to minimize errors and increase readability:*
+*Neat writing to minimize errors and increase readability:*
 
 4. Modular approach, Create Functions: Most of the times, you would have to do very different calculations within the same algorithm. Also, many calculations might have to be repeated at various steps. In such cases, its better to put these calculations in separate functions to make your scripts more legible and avoid errors due to copy paste in the respective cases. Have a separate file for the main code and another file for all the functions. Its better to have all functions in one file labelled utilities as it makes tracking versions also easier and reduces the mess of organizing files. 
 
 5. Writing Utility functions in pyhton ( include link here) and in Matlab (include link here)
 
-  1. do  not have redundant or confusing function or variable names
+    1. do  not have redundant or confusing function or variable names
 
-  2. better to write them in the order in which they would be called in the main code so as to maintain the readability
+    2. better to write them in the order in which they would be called in the main code so as to maintain the readability
 
   3. include sanity checks for all the input and output parameters for every function. Include checks to ensure that there are no negative or NAN values where there shouldnt be.
   Its crucial to have these checks pop errors and stop excution as compared to warnings as you cannot afford them to go unnoticed and accumulate. 
