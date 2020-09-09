@@ -14,30 +14,30 @@ All these are crucial in order to ensure that the data set you are setting with 
 
 5. Writing all utility functions in a single function file. 
 Here is an example in python: 
-def firstfunction (a,b)
-    #c = do sometihng with a and b
-    return c
-def secondfunction(c,d)
-    #e = do something with c and d
-    return e
+        def firstfunction (a,b)
+            #c = do sometihng with a and b
+            return c
+        def secondfunction(c,d)
+            #e = do something with c and d
+            return e
 To call : 
-import utils as ut # the name of the file will be utils.py in this case
-c = ut.firstfunction(a,b)
+        import utils as ut # the name of the file will be utils.py in this case
+        c = ut.firstfunction(a,b)
 
 For matlab: 
-function f = utils % the name of the file will be utils.m in this case
-    f.firstfunction = @firstfunction;
-    f.secondfunction = @secondfunction;
-end
-function c = firstfunction(a,b)
-    %do something 
-end
-function e = secondfunction(c,d)
-    %do something
-end
-To call:
-ut = utils;
-c = ut.firstfunction(a,b);
+        function f = utils % the name of the file will be utils.m in this case
+            f.firstfunction = @firstfunction;
+            f.secondfunction = @secondfunction;
+        end
+        function c = firstfunction(a,b)
+            %do something 
+        end
+        function e = secondfunction(c,d)
+            %do something
+        end
+        To call:
+        ut = utils;
+        c = ut.firstfunction(a,b);
 
     1. Do  not have redundant or confusing function or variable names
 
