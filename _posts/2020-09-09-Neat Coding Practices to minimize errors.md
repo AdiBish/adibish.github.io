@@ -24,6 +24,7 @@ All these are crucial in order to ensure that the data set you are setting with 
             return e
             
         # to call: 
+        
         import utils as ut # the name of the file will be utils.py in this case
         c = ut.firstfunction(a,b)
 
@@ -40,8 +41,11 @@ For matlab:
             %do something
         end
         % To call:
+        
         ut = utils;
-        c = ut.firstfunction(a,b);
+        c = ut.firstfunction(a,b);  
+        
+Note:  
 
     1. Do  not have redundant or confusing function or variable names
 
