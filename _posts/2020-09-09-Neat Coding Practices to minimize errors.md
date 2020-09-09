@@ -12,9 +12,26 @@ All these are crucial in order to ensure that the data set you are setting with 
 
 4. Modular approach, Create Functions: Most of the times, you would have to do very different calculations within the same algorithm. Also, many calculations might have to be repeated at various steps. In such cases, its better to put these calculations in separate functions to make your scripts more legible and avoid errors due to copy paste in the respective cases. Have a separate file for the main code and another file for all the functions. Its better to have all functions in one file labelled utilities as it makes tracking versions also easier and reduces the mess of organizing files. 
 
-5. Writing all utility functions in a single function file.   
-    Here is an example in python:  
+5. Writing all utility functions in a single function file.  
+
+    1. Do  not have redundant or confusing function or variable names
+
+    2. Better to write them in the order in which they would be called in the main code so as to maintain the readability
     
+    3. Include sanity checks for all the input and output parameters for every function. Include checks to ensure that there are no negative or NAN values where there shouldnt be.
+  Its crucial to have these checks pop errors and stop excution as compared to warnings as you cannot afford them to go unnoticed and accumulate. 
+
+    4. For the variables that are being called in multiple functions, it would be better to set them as global variables else a sanity check for them in each function they are   called in becomes utmost necessary. 
+
+    5. Avoid same local variable names across different functions
+
+    6. Comment. specially at critical places
+
+    7. VERY IMPORTANT: Before going for a finalizing your functions, check each function individually on some simulated or surrogate data to validate that the calculations follow expectations. 
+
+    8. Once done with initial tests, set breakpoints at critical points as well so that debugging along with the main code becomes easy ( see point 6(vi)).
+    
+How to have all important functions in the same file in python:      
     
         def firstfunction (a,b)
             #c = do sometihng with a and b
@@ -28,7 +45,7 @@ All these are crucial in order to ensure that the data set you are setting with 
         import utils as ut # the name of the file will be utils.py in this case
         c = ut.firstfunction(a,b)
 
-For matlab: 
+In matlab: 
 
         function f = utils % the name of the file will be utils.m in this case
             f.firstfunction = @firstfunction;
@@ -44,26 +61,7 @@ For matlab:
         
         ut = utils;
         c = ut.firstfunction(a,b);  
-        
-Note:  
-
- 1. Do  not have redundant or confusing function or variable names
-
- 2. Better to write them in the order in which they would be called in the main code so as to maintain the readability
-    
- 3. Include sanity checks for all the input and output parameters for every function. Include checks to ensure that there are no negative or NAN values where there shouldnt be.
-  Its crucial to have these checks pop errors and stop excution as compared to warnings as you cannot afford them to go unnoticed and accumulate. 
-
-    4. For the variables that are being called in multiple functions, it would be better to set them as global variables else a sanity check for them in each function they are   called in becomes utmost necessary. 
-
-    5. Avoid same local variable names across different functions
-
-    6. Comment. specially at critical places
-
-    7. VERY IMPORTANT: Before going for a finalizing your functions, check each function individually on some simulated or surrogate data to validate that the calculations follow expectations. 
-
-    8. Once done with initial tests, set breakpoints at critical points as well so that debugging along with the main code becomes easy ( see point 6(vi)).
-
+  
 6. Writing the main code
 Here the basic flow would be to load preprocessed data (or if your code is not very lengthy, you can load raw data and run preprocessing as mentioned in #2 through separate functions within the first few lines itself), plot figures and save all necessary intermediate and final variables.
 
