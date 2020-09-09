@@ -1,6 +1,5 @@
-### *PAGE UNDER CONSTRUCTION* 
 
-*Where to start:*
+*How to start:*
 
 I will be using analysis of experimental data that I do routinely as an example. Assuming that you have collected some interesting data and want to see if there are particular trends in your data. 
 1. Identify the type of raw data that you need to work upon and identify its structure: For neural data, do you need spike data, local field potentials, calcium imaging. Are there any behavioural data to correlate: video frames for position, TTL timestamps for various events etc. 
@@ -33,7 +32,8 @@ All these are crucial in order to ensure that the data set you are setting with 
     
 How to have all important functions in the same file in python:      
     
-        ```def firstfunction (a,b)
+        ```ruby
+        def firstfunction (a,b)
             #c = do sometihng with a and b
             return c
         def secondfunction(c,d)
@@ -48,7 +48,8 @@ How to have all important functions in the same file in python:
 
 In matlab: 
 
-        ```function f = utils % the name of the file will be utils.m in this case
+        ```ruby
+        function f = utils % the name of the file will be utils.m in this case
             f.firstfunction = @firstfunction;
             f.secondfunction = @secondfunction;
         end
