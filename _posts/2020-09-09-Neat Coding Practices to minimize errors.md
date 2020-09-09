@@ -44,7 +44,7 @@ def secondfunction(c,d):
 
 import utils as ut # the name of the file will be utils.py in this case
 c = ut.firstfunction(a,b)
-        ```
+```
 
 In matlab: 
 
