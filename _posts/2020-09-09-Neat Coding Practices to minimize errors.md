@@ -2,9 +2,13 @@
 *How to start:*
 
 I will be using analysis of experimental data that I do routinely as an example. Assuming that you have collected some interesting data and want to see if there are particular trends in your data. 
+
 1. Identify the type of raw data that you need to work upon and identify its structure: For neural data, do you need spike data, local field potentials, calcium imaging. Are there any behavioural data to correlate: video frames for position, TTL timestamps for various events etc. 
+
 2. Prepare the raw data: check if any preprocessing would be required e.g. spike data needs to be sorted into various session types or the gains of local field potentials need to be matched across channels and animals. 
+
 All these are crucial in order to ensure that the data set you are setting with in the first place is correct. 
+
 3. Pen and paper for psuedoalgorithm: sketch out the outline of the calculations that would be needed and the basic algorithm before setting out on writing the final code.
 
 *Neat writing to minimize errors and increase readability:*
@@ -93,5 +97,5 @@ Happy Coding :)
 
 
 Reference: 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4269119/
+[Minimizing bugs in cognitive neuroscience programming](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4269119/).
 
