@@ -47,11 +47,11 @@ For matlab:
         
 Note:  
 
-    1. Do  not have redundant or confusing function or variable names
+ 1. Do  not have redundant or confusing function or variable names
 
-    2. Better to write them in the order in which they would be called in the main code so as to maintain the readability
+ 2. Better to write them in the order in which they would be called in the main code so as to maintain the readability
     
-    3. Include sanity checks for all the input and output parameters for every function. Include checks to ensure that there are no negative or NAN values where there shouldnt be.
+ 3. Include sanity checks for all the input and output parameters for every function. Include checks to ensure that there are no negative or NAN values where there shouldnt be.
   Its crucial to have these checks pop errors and stop excution as compared to warnings as you cannot afford them to go unnoticed and accumulate. 
 
     4. For the variables that are being called in multiple functions, it would be better to set them as global variables else a sanity check for them in each function they are   called in becomes utmost necessary. 
