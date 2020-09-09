@@ -12,19 +12,23 @@ All these are crucial in order to ensure that the data set you are setting with 
 
 4. Modular approach, Create Functions: Most of the times, you would have to do very different calculations within the same algorithm. Also, many calculations might have to be repeated at various steps. In such cases, its better to put these calculations in separate functions to make your scripts more legible and avoid errors due to copy paste in the respective cases. Have a separate file for the main code and another file for all the functions. Its better to have all functions in one file labelled utilities as it makes tracking versions also easier and reduces the mess of organizing files. 
 
-5. Writing all utility functions in a single function file. 
-    Here is an example in python: 
-   - def firstfunction (a,b)
-    -    #c = do sometihng with a and b
-    -    return c
-   - def secondfunction(c,d)
-    -    #e = do something with c and d
-     -   return e
-To call : 
+5. Writing all utility functions in a single function file.   
+    Here is an example in python:  
+    
+    
+        def firstfunction (a,b)
+            #c = do sometihng with a and b
+            return c
+        def secondfunction(c,d)
+            #e = do something with c and d
+            return e
+            
+        # to call: 
         import utils as ut # the name of the file will be utils.py in this case
         c = ut.firstfunction(a,b)
 
 For matlab: 
+
         function f = utils % the name of the file will be utils.m in this case
             f.firstfunction = @firstfunction;
             f.secondfunction = @secondfunction;
@@ -35,7 +39,7 @@ For matlab:
         function e = secondfunction(c,d)
             %do something
         end
-        To call:
+        % To call:
         ut = utils;
         c = ut.firstfunction(a,b);
 
@@ -69,7 +73,7 @@ Here the basic flow would be to load preprocessed data (or if your code is not v
 
     5. Comment at critical places
 
-    6. MOST IMPORTANT: before going into a full blown run, set breakpoints at all critical places in order debug. To set breakpoints in [Python](https://poweruser.blog/setting-a-breakpoint-in-python-438e23fe6b28) and in [MATLAB](https://in.mathworks.com/help/matlab/matlab_prog/set-breakpoints.html) though I have only tested it in Matlab. 
+    6. MOST IMPORTANT: before going into a full blown run, set breakpoints at all critical places in order debug. You can set breakpoints in [Python](https://poweruser.blog/setting-a-breakpoint-in-python-438e23fe6b28) and in [MATLAB](https://in.mathworks.com/help/matlab/matlab_prog/set-breakpoints.html) though I have only tested it in Matlab. 
 
 7. How to debug.
 Once all break points are set, run your script one an example or simulated data set. Have manually calculated results as well and as you debug so that you can validate at every step. 
