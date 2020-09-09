@@ -32,7 +32,7 @@ All these are crucial in order to ensure that the data set you are setting with 
     
 How to have all important functions in the same file in python:      
     
-        ```ruby
+        ```python
         def firstfunction (a,b)
             #c = do sometihng with a and b
             return c
@@ -48,7 +48,7 @@ How to have all important functions in the same file in python:
 
 In matlab: 
 
-        ```ruby
+        ```matlab
         function f = utils % the name of the file will be utils.m in this case
             f.firstfunction = @firstfunction;
             f.secondfunction = @secondfunction;
