@@ -23,6 +23,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Advent Pro';
+    display:inline;
 }
 p {
     font-size: 1.5em;
@@ -31,7 +32,8 @@ p {
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: 1.5em;
+    font-size: 2em;
+    display:inline;
 }
 
 ul.posts { 
