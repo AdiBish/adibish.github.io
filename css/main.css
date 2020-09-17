@@ -9,7 +9,7 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     font-size: 1.2em;
-    color:white;
+    color:#FFFFFF;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -26,25 +26,25 @@ h1 {
     font-size: 3em;
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     display:inline;
-    color:white;
+    color:#FFFFFF;
 }
 p {
     font-size: 1.5em;
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     line-height: 1.4em;
-    color: white;
+    color: #FFFFFF;
 }
 footer {
     border-top: 2px solid #d5d5d5;
     font-size: 0.8em;
-    color:white;
+    color:#FFFFFF;
     display:inline;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    color:white;
+    color:#FFFFFF;
 }
 
 ul.posts li {
