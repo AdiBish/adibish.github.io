@@ -7,9 +7,9 @@ nav ul, footer ul {
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     padding: 0px;
     list-style: none;
+    color:white;
     font-weight: bold;
     font-size: 1.2em;
-    color:white;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -23,28 +23,29 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
+    color:white;
     font-size: 3em;
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
-    display:inline;
-    color:white;
+    display:inline;    
 }
 p {
+    background-color: #000000;
+    color:white;
     font-size: 1.5em;
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     line-height: 1.4em;
-    color:white;
 }
 footer {
     border-top: 2px solid #d5d5d5;
-    font-size: 0.8em;
     color:white;
+    font-size: 0.8em;
     display:inline;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
     color:white;
+    font-size: 1.5em;
 }
 
 ul.posts li {
