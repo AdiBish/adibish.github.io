@@ -7,6 +7,7 @@ nav ul, footer ul {
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     padding: 0px;
     list-style: none;
+    background-color: #000000;
     color:white;
     font-weight: bold;
     font-size: 1.2em;
@@ -23,6 +24,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
+    background-color: #000000;
     color:white;
     font-size: 3em;
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
@@ -37,6 +39,7 @@ p {
 }
 footer {
     border-top: 2px solid #d5d5d5;
+    background-color: #000000;
     color:white;
     font-size: 0.8em;
     display:inline;
