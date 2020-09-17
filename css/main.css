@@ -10,7 +10,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: block;
+    display: inline;
     margin-right: 20px;
 }
 a {
@@ -31,8 +31,8 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: 2em;
+    border-top: 3px solid #d5d5d5;
+    font-size: 1.8em;
     display:inline;
 }
 
