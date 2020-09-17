@@ -4,7 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 nav ul, footer ul {
-    font-family:'Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif';
+    font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -23,12 +23,12 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif';
+    font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     display:inline;
 }
 p {
     font-size: 1.5em;
-    font-family:'Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif';
+    font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     line-height: 1.4em;
     color: #333;
 }
