@@ -4,10 +4,11 @@ body {
     background-color: #FFFFFF;
 }
 nav ul, footer ul {
-    font-family: 'Advent Pro';
+    font-family: 'Verdana, Geneva, sans-serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1.2em;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -22,7 +23,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Advent Pro';
+    font-family:'Verdana, Geneva, sans-serif';
     display:inline;
 }
 p {
@@ -31,8 +32,8 @@ p {
     color: #333;
 }
 footer {
-    border-top: 3px solid #d5d5d5;
-    font-size: 1.8em;
+    border-top: 1px solid #d5d5d5;
+    font-size: 0.8em;
     display:inline;
 }
 
