@@ -1,14 +1,12 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #000000;
+    background-color: #FFFFFF;
 }
 nav ul, footer ul {
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     padding: 0px;
     list-style: none;
-    background-color: #000000;
-    color:white;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -18,36 +16,29 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color:blue;
+    color:gray;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    background-color: #000000;
-    color:white;
     font-size: 3em;
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     display:inline;    
 }
 p {
-    background-color: #000000;
-    color:white;
     font-size: 1.5em;
     font-family:'Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif';
     line-height: 1.4em;
 }
 footer {
     border-top: 2px solid #d5d5d5;
-    background-color: #000000;
-    color:white;
     font-size: 0.8em;
     display:inline;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
-    color:white;
     font-size: 1.5em;
 }
 
